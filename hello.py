@@ -2,8 +2,12 @@
 # 나머지 모든 경우는 숫자 그대로 출력
 
 
-for i in range(10):
-    if i%3=0 :
+for i in range(1, 20):
+    if i%15 ==0:
+        print('yeardream')
+    elif i%3==0 :
         print('year')
+    elif: i%5 == 0:
+        print('dream')
     else :
         print(i)
